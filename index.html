@@ -1,0 +1,1518 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SolarShop</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Manrope:wght@500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<div id="solarshop-hero">
+
+<!-- =========================================================
+     TOP BAR
+========================================================= -->
+
+<div class="solar-topbar">
+
+    <div class="top-left">
+
+        <div class="top-item">
+            <span class="top-icon">
+                <svg viewBox="0 0 24 24" fill="none">
+                    <path d="M20.5 3.5C12 3.7 5.4 7.4 4 14.5c-.7 3.5 1.5 5.8 5 5.1C16.1 18.2 20 12.5 20.5 3.5Z"
+                          fill="currentColor"/>
+                    <path d="M5 19c3.3-4.3 6.5-6.9 10.5-9"
+                          stroke="#fff"
+                          stroke-width="1.5"
+                          stroke-linecap="round"/>
+                </svg>
+            </span>
+            Clean Energy for a Brighter Future
+        </div>
+
+        <div class="top-item">
+            <span class="top-icon">
+                <svg viewBox="0 0 24 24" fill="none">
+                    <path d="M12 2 20 5v6c0 5.1-3.2 8.8-8 11-4.8-2.2-8-5.9-8-11V5l8-3Z"
+                          fill="currentColor"/>
+                    <path d="m8.5 12 2.2 2.2 4.8-5"
+                          stroke="#fff"
+                          stroke-width="1.7"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"/>
+                </svg>
+            </span>
+            Save Money
+        </div>
+
+        <div class="top-item">
+            <span class="top-icon">
+                <svg viewBox="0 0 24 24" fill="none">
+                    <path d="M20.5 3.5C12 3.7 5.4 7.4 4 14.5c-.7 3.5 1.5 5.8 5 5.1C16.1 18.2 20 12.5 20.5 3.5Z"
+                          fill="currentColor"/>
+                    <path d="M5 19c3.3-4.3 6.5-6.9 10.5-9"
+                          stroke="#fff"
+                          stroke-width="1.5"
+                          stroke-linecap="round"/>
+                </svg>
+            </span>
+            Protect the Planet
+        </div>
+
+    </div>
+
+    <div class="top-right">
+
+        <div class="top-item">
+            <span class="top-icon">
+                <svg viewBox="0 0 24 24" fill="none">
+                    <path d="M12 2 20 5v6c0 5.1-3.2 8.8-8 11-4.8-2.2-8-5.9-8-11V5l8-3Z"
+                          stroke="currentColor"
+                          stroke-width="2"/>
+                    <path d="m8.5 12 2.2 2.2 4.8-5"
+                          stroke="currentColor"
+                          stroke-width="1.8"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"/>
+                </svg>
+            </span>
+            Trusted Solar Solutions
+        </div>
+
+        <div class="top-item"> <i class="fa-solid fa-earth-americas"></i>
+            A Greener Tomorrow
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- =========================================================
+     NAVBAR
+========================================================= -->
+
+<header class="solar-nav">
+
+    <a href="#" class="solar-logo">
+        <img src="img/logo.png" alt="SolarShop">
+    </a>
+
+    <nav class="solar-menu">
+            <a href="#">Home</a>
+            <a href="#">Solar Solutions <i class="fa-solid fa-angle-down dropdown-icon"></i></a>
+            <a href="#">Products <i class="fa-solid fa-angle-down dropdown-icon"></i></a>
+            <a href="#">Projects <i class="fa-solid fa-angle-down dropdown-icon"></i></a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+    </nav>
+
+    <div class="nav-actions">
+
+        <div class="nav-icon search-icon">
+            <svg viewBox="0 0 24 24" fill="none">
+                <circle cx="10.8" cy="10.8" r="7.2"
+                        stroke="currentColor"
+                        stroke-width="2"/>
+                <path d="m16.2 16.2 5 5"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"/>
+            </svg>
+        </div>
+
+        <div class="nav-icon">
+            <svg viewBox="0 0 24 24" fill="none">
+                <circle cx="12" cy="8" r="3.6"
+                        stroke="currentColor"
+                        stroke-width="2"/>
+                <path d="M4.5 21c.6-4.2 3.1-6.3 7.5-6.3s6.9 2.1 7.5 6.3"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"/>
+            </svg>
+        </div>
+
+        <div class="nav-icon cart-icon">
+
+            <svg viewBox="0 0 28 28" fill="none">
+                <path d="M3 5h3l2.1 12.1a2 2 0 0 0 2 1.7h9.8a2 2 0 0 0 1.9-1.4L24 9H7"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"/>
+                <circle cx="10" cy="23" r="1.5" fill="currentColor"/>
+                <circle cx="20" cy="23" r="1.5" fill="currentColor"/>
+            </svg>
+
+            <span class="cart-count">0</span>
+
+        </div>
+
+    </div>
+
+</header>
+
+
+<!-- =========================================================
+     HERO
+========================================================= -->
+
+<section class="hero-main">
+
+    <div class="hero-background"></div>
+
+    <!-- LEFT CONTENT -->
+
+    <div class="hero-content">
+
+        <div class="hero-badge">
+
+            <svg viewBox="0 0 24 24" fill="none">
+                <path d="M20.5 3.5C12 3.7 5.4 7.4 4 14.5c-.7 3.5 1.5 5.8 5 5.1C16.1 18.2 20 12.5 20.5 3.5Z"
+                      fill="currentColor"/>
+                <path d="M5 19c3.3-4.3 6.5-6.9 10.5-9"
+                      stroke="#fff"
+                      stroke-width="1.5"
+                      stroke-linecap="round"/>
+            </svg>
+
+            Renewable Energy Solutions
+
+        </div>
+
+
+        <h1 class="hero-title">
+            Turn Sunlight<br>
+            <span class="green">Into </span><span class="blue">Savings</span>
+        </h1>
+
+
+        <p class="hero-description">
+            Generate clean solar energy for your home
+            and take control of your electricity costs.
+        </p>
+
+
+        <div class="hero-buttons">
+
+            <a href="#how-it-works" class="solar-btn primary">
+                See How Solar Works
+
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                    <path d="M5 12h13"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"/>
+                    <path d="m13 6 6 6-6 6"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"/>
+                </svg>
+
+            </a>
+
+
+            <a href="#calculator" class="solar-btn secondary">
+
+                Calculate Your Savings
+
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                    <rect x="5" y="3" width="14" height="18" rx="2"
+                          stroke="currentColor"
+                          stroke-width="1.8"/>
+                    <path d="M8 7h8"
+                          stroke="currentColor"
+                          stroke-width="1.8"
+                          stroke-linecap="round"/>
+                    <path d="M8 11h2M14 11h2M8 15h2M14 15h2"
+                          stroke="currentColor"
+                          stroke-width="1.8"
+                          stroke-linecap="round"/>
+                </svg>
+
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         ANIMATION STAGE  (story: sun > sunlight > rays > panels > inverter > home > savings)
+    ====================================================== -->
+
+    <div class="solar-stage">
+      <div class="scene">
+
+        <!-- STEP 0 : SUN -->
+        <div class="sun"></div>
+
+        <!-- ALL LINES / RAYS / ARROWS (design coordinates, y shifted by hero offset) -->
+        <svg class="scene-svg" viewBox="0 0 1672 801" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+          <defs>
+            <filter id="rayBlur" x="-50%" y="-50%" width="200%" height="200%">
+              <feGaussianBlur stdDeviation="5"/>
+            </filter>
+            <radialGradient id="sparkGrad">
+              <stop offset="0%"  stop-color="#fffbd0" stop-opacity=".95"/>
+              <stop offset="45%" stop-color="#ffe24a" stop-opacity=".45"/>
+              <stop offset="100%" stop-color="#ffd400" stop-opacity="0"/>
+            </radialGradient>
+            <radialGradient id="panelGlowGrad">
+              <stop offset="0%"  stop-color="#bfe6ff" stop-opacity=".9"/>
+              <stop offset="100%" stop-color="#7cc4ff" stop-opacity="0"/>
+            </radialGradient>
+
+            <mask id="maskA1" maskUnits="userSpaceOnUse" x="0" y="0" width="1672" height="941">
+              <path class="mp" style="--d:6.5s;--t:1s" pathLength="1" d="M985 452 C1030 436 1085 436 1130 452"/>
+            </mask>
+            <mask id="maskA2" maskUnits="userSpaceOnUse" x="0" y="0" width="1672" height="941">
+              <path class="mp" style="--d:8.3s;--t:1.4s" pathLength="1" d="M1182 418 C1205 402 1235 412 1236 448 C1238 490 1232 512 1262 522 C1296 532 1318 534 1318 578"/>
+            </mask>
+            <mask id="maskA3" maskUnits="userSpaceOnUse" x="0" y="0" width="1672" height="941">
+              <path class="mp" style="--d:10.9s;--t:.7s" pathLength="1" d="M1428 612 L1330 612"/>
+            </mask>
+          </defs>
+
+          <g transform="translate(0 -140)">
+
+            <!-- STEP 2 : RAYS  sun -> solar panels -->
+            
+        <g class="ray" style="--d:2.40s;--t:1.7s">
+            <path class="r-glow" pathLength="1" d="M748 266 Q820.7 335.3 868 424"/>
+            <path class="r-mid"  pathLength="1" d="M748 266 Q820.7 335.3 868 424"/>
+            <path class="r-core" pathLength="1" d="M748 266 Q820.7 335.3 868 424"/>
+            <path class="r-dots" d="M748 266 Q820.7 335.3 868 424" style="--d:4.10s"/>
+        </g>
+        <g class="ray" style="--d:2.90s;--t:1.7s">
+            <path class="r-glow" pathLength="1" d="M768 262 Q846.6 336.7 900 431"/>
+            <path class="r-mid"  pathLength="1" d="M768 262 Q846.6 336.7 900 431"/>
+            <path class="r-core" pathLength="1" d="M768 262 Q846.6 336.7 900 431"/>
+            <path class="r-dots" d="M768 262 Q846.6 336.7 900 431" style="--d:4.60s"/>
+        </g>
+        <g class="ray" style="--d:3.40s;--t:1.7s">
+            <path class="r-glow" pathLength="1" d="M786 252 Q872.0 334.5 933 437"/>
+            <path class="r-mid"  pathLength="1" d="M786 252 Q872.0 334.5 933 437"/>
+            <path class="r-core" pathLength="1" d="M786 252 Q872.0 334.5 933 437"/>
+            <path class="r-dots" d="M786 252 Q872.0 334.5 933 437" style="--d:5.10s"/>
+        </g>
+        <g class="ray" style="--d:3.90s;--t:1.7s">
+            <path class="r-glow" pathLength="1" d="M800 238 Q895.9 329.9 967 442"/>
+            <path class="r-mid"  pathLength="1" d="M800 238 Q895.9 329.9 967 442"/>
+            <path class="r-core" pathLength="1" d="M800 238 Q895.9 329.9 967 442"/>
+            <path class="r-dots" d="M800 238 Q895.9 329.9 967 442" style="--d:5.60s"/>
+        </g>
+            
+        <g class="spark" style="--d:4.00s" transform="translate(868 424)">
+            <circle r="26" fill="url(#sparkGrad)"/>
+            <circle r="5" fill="#fffbe0"/>
+        </g>
+        <g class="spark" style="--d:4.50s" transform="translate(900 431)">
+            <circle r="26" fill="url(#sparkGrad)"/>
+            <circle r="5" fill="#fffbe0"/>
+        </g>
+        <g class="spark" style="--d:5.00s" transform="translate(933 437)">
+            <circle r="26" fill="url(#sparkGrad)"/>
+            <circle r="5" fill="#fffbe0"/>
+        </g>
+        <g class="spark" style="--d:5.50s" transform="translate(967 442)">
+            <circle r="26" fill="url(#sparkGrad)"/>
+            <circle r="5" fill="#fffbe0"/>
+        </g>
+
+            <!-- panel glow -->
+            <ellipse class="panel-glow" cx="935" cy="445" rx="190" ry="62" transform="rotate(-9 935 445)" fill="url(#panelGlowGrad)"/>
+
+            <!-- STEP 3 : stem from Solar Panels card to roof -->
+            <path class="stem" style="--d:6s" d="M1008 342 L1008 396"/>
+            <circle class="stem-dot" style="--d:6s" cx="1008" cy="398" r="7" fill="#fff" stroke="#bfe6ff" stroke-width="4"/>
+
+            <!-- ARROW 1 : solar panels -> inverter -->
+            <g mask="url(#maskA1)"><path class="arrow-line green" d="M985 452 C1030 436 1085 436 1130 452"/></g>
+            <path class="arrow-head green" style="--d:7.4s" transform="translate(1130 452) rotate(16)" d="M-13 -11 L1 0 L-13 11"/>
+
+            <!-- stem from Inverter card -->
+            <path class="stem" style="--d:7.7s" d="M1262 398 C1262 418 1242 424 1237 446"/>
+
+            <!-- ARROW 2 : inverter -> home -->
+            <g mask="url(#maskA2)"><path class="arrow-line cyan" d="M1182 418 C1205 402 1235 412 1236 448 C1238 490 1232 512 1262 522 C1296 532 1318 534 1318 578"/></g>
+            <path class="arrow-head cyan" style="--d:9.6s" transform="translate(1318 578) rotate(90)" d="M-13 -11 L1 0 L-13 11"/>
+
+            <!-- ARROW 3 : savings -->
+            <g mask="url(#maskA3)"><path class="arrow-line yellow" d="M1428 612 L1330 612"/></g>
+            <path class="arrow-head yellow" style="--d:11.5s" transform="translate(1326 612) rotate(180)" d="M-13 -11 L1 0 L-13 11"/>
+
+          </g>
+        </svg>
+
+        <!-- CARDS -->
+
+        <div class="process-card card-sunlight">
+            <span class="process-number">1</span>
+            <span class="process-icon"><svg viewBox="0 0 40 40" fill="none"><circle cx="20" cy="20" r="8" fill="#ffc400"/><path d="M20 3v6M20 31v6M3 20h6M31 20h6M8 8l4 4M28 28l4 4M32 8l-4 4M12 28l-4 4" stroke="#ffc400" stroke-width="2.5" stroke-linecap="round"/></svg></span>
+            <span class="process-text">
+                <span class="process-title">Sunlight</span>
+                <span class="process-sub">Free, natural energy</span>
+            </span>
+        </div>
+
+
+        <div class="process-card card-panels">
+            <span class="process-number">2</span>
+            <span class="process-icon"><svg viewBox="0 0 40 40" fill="none"><path d="M7 9h25l-3 20H10L7 9Z" fill="#087fdc" stroke="#fff" stroke-width="1.5"/><path d="M13 9l-2 20M20 9v20M27 9l-2 20M8.5 16h22M9.5 23h22" stroke="#fff" stroke-width="1.2"/></svg></span>
+            <span class="process-text">
+                <span class="process-title">Solar Panels</span>
+                <span class="process-sub">Capture sunlight<br>to produce DC power</span>
+            </span>
+        </div>
+
+
+        <div class="process-card card-inverter">
+            <span class="process-number">3</span>
+            <span class="process-icon"><svg viewBox="0 0 40 40" fill="none"><path d="M23 3 10 22h9l-2 15 13-21h-9l2-13Z" fill="#11d9ef" stroke="#0aaec5" stroke-width="1"/></svg></span>
+            <span class="process-text">
+                <span class="process-title">Inverter</span>
+                <span class="process-sub">Converts DC to<br>AC power</span>
+            </span>
+        </div>
+
+
+        <div class="process-card card-home">
+            <span class="process-number">4</span>
+            <span class="process-icon"><svg viewBox="0 0 40 40" fill="none"><path d="M6 19 20 7l14 12v13H6V19Z" stroke="#087fdc" stroke-width="3" stroke-linejoin="round"/><path d="M16 32V22h8v10" stroke="#087fdc" stroke-width="3"/></svg></span>
+            <span class="process-text">
+                <span class="process-title">Your Home</span>
+                <span class="process-sub">Powers your daily life</span>
+            </span>
+        </div>
+
+
+        <div class="process-card card-save">
+            <span class="process-number">5</span>
+            <span class="process-icon"><svg viewBox="0 0 40 40" fill="none"><ellipse cx="20" cy="11" rx="10" ry="5" fill="#ffc400" stroke="#e8a900" stroke-width="1.5"/><path d="M10 11v7c0 2.8 4.5 5 10 5s10-2.2 10-5v-7" fill="#ffd42b" stroke="#e8a900" stroke-width="1.5"/><path d="M10 18v7c0 2.8 4.5 5 10 5s10-2.2 10-5v-7" fill="#ffca0a" stroke="#e8a900" stroke-width="1.5"/></svg></span>
+            <span class="process-text">
+                <span class="process-title">Estimated Annual Savings</span>
+                <span class="process-sub">$1,240 /year</span>
+            </span>
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- =====================================================
+         BOTTOM BENEFITS
+    ====================================================== -->
+
+    <div class="benefits">
+
+        <div class="benefit">
+
+            <div class="benefit-icon">
+
+                <svg viewBox="0 0 32 32" fill="none">
+
+                    <path d="M27 4C16 4.2 7.5 9 6 18c-.8 4.4 2 7.2 6.4 6.4C21 23.3 26.4 16.4 27 4Z"
+                          fill="currentColor"/>
+
+                    <path d="M7 26c4.5-5.8 8.7-9.2 14-12"
+                          stroke="#fff"
+                          stroke-width="1.8"
+                          stroke-linecap="round"/>
+
+                </svg>
+
+            </div>
+
+            <div class="benefit-text">
+
+                <span class="benefit-title">
+                    Clean Energy
+                </span>
+
+                <span class="benefit-sub">
+                    100% Renewable
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <div class="benefit">
+
+            <div class="benefit-icon">
+
+                <svg viewBox="0 0 32 32" fill="none">
+
+                    <ellipse cx="16" cy="8" rx="9" ry="4"
+                             stroke="currentColor"
+                             stroke-width="2"/>
+
+                    <path d="M7 8v7c0 2.2 4 4 9 4s9-1.8 9-4V8"
+                          stroke="currentColor"
+                          stroke-width="2"/>
+
+                    <path d="M7 15v7c0 2.2 4 4 9 4s9-1.8 9-4v-7"
+                          stroke="currentColor"
+                          stroke-width="2"/>
+
+                </svg>
+
+            </div>
+
+            <div class="benefit-text">
+
+                <span class="benefit-title">
+                    Lower Bills
+                </span>
+
+                <span class="benefit-sub">
+                    Reduce your electricity costs
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <div class="benefit">
+
+            <div class="benefit-icon">
+
+                <svg viewBox="0 0 32 32" fill="none">
+
+                    <path d="M16 3 27 7v8c0 7-4.4 11.5-11 14-6.6-2.5-11-7-11-14V7l11-4Z"
+                          stroke="currentColor"
+                          stroke-width="2"/>
+
+                    <path d="m11 16 3.2 3.2L21 12"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"/>
+
+                </svg>
+
+            </div>
+
+            <div class="benefit-text">
+
+                <span class="benefit-title">
+                    Energy Independence
+                </span>
+
+                <span class="benefit-sub">
+                    Reliable, anytime, anywhere
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <div class="benefit">
+
+            <div class="benefit-icon">
+
+                <svg viewBox="0 0 32 32" fill="none">
+
+                    <circle cx="16" cy="16" r="13"
+                            stroke="currentColor"
+                            stroke-width="2"/>
+
+                    <path d="M3 16h26M16 3c4 4 6 8.3 6 13s-2 9-6 13M16 3c-4 4-6 8.3-6 13s2 9 6 13"
+                          stroke="currentColor"
+                          stroke-width="1.5"/>
+
+                </svg>
+
+            </div>
+
+            <div class="benefit-text">
+
+                <span class="benefit-title">
+                    A Greener Tomorrow
+                </span>
+
+                <span class="benefit-sub">
+                    Less carbon footprint
+                </span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =========================================================
+     MODULE: OUR SOLAR SOLUTIONS
+========================================================= -->
+<section class="solar-solutions-module">
+    <div class="ss-container">
+        
+        <!-- Left Text Content -->
+        <div class="ss-text-content">
+            <div class="ss-badge">
+                <i class="fa-solid fa-leaf"></i> OUR SOLAR SOLUTIONS
+            </div>
+            <h2 class="ss-title">Flexible Solutions<br>for Every Need</h2>
+            <p class="ss-desc">From residential rooftops to large commercial projects, we provide tailored solar solutions that deliver real value and long-term savings.</p>
+            <a href="#" class="ss-btn">View All Solutions &nbsp;&rarr;</a>
+        </div>
+
+        <!-- Right Cards Container -->
+        <div class="ss-cards-wrapper" id="ss-cards-scroll">
+            
+            <!-- Card 1 -->
+            <div class="ss-card">
+                <div class="ss-card-img"><img src="img/Residential Solar.jpg"></div>
+                <div class="ss-card-icon"><i class="fa-solid fa-house-chimney"></i></div>
+                <div class="ss-card-body">
+                    <h3 class="ss-card-title">Residential Solar</h3>
+                    <p class="ss-card-desc">Power your home with clean, renewable energy.</p>
+                    <a href="#" class="ss-card-link">Learn More &nbsp;&rarr;</a>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="ss-card">
+                <div class="ss-card-img"><img src="img/Commercial Solar.jpg"></div>
+                <div class="ss-card-icon"><i class="fa-solid fa-industry"></i></div>
+                <div class="ss-card-body">
+                    <h3 class="ss-card-title">Commercial Solar</h3>
+                    <p class="ss-card-desc">Reduce operating costs and increase efficiency.</p>
+                    <a href="#" class="ss-card-link">Learn More &nbsp;&rarr;</a>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="ss-card">
+                <div class="ss-card-img"><img src="img/Battery Storage.jpg"></div>
+                <div class="ss-card-icon"><i class="fa-solid fa-server"></i></div>
+                <div class="ss-card-body">
+                    <h3 class="ss-card-title">Battery Storage</h3>
+                    <p class="ss-card-desc">Store off-grid power and stay prepared.</p>
+                    <a href="#" class="ss-card-link">Learn More &nbsp;&rarr;</a>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="ss-card">
+                <div class="ss-card-img"><img src="img/EV Charging.jpg"></div>
+                <div class="ss-card-icon"><i class="fa-solid fa-charging-station"></i></div>
+                <div class="ss-card-body">
+                    <h3 class="ss-card-title">EV Charging</h3>
+                    <p class="ss-card-desc">Charge your EV with clean power.</p>
+                    <a href="#" class="ss-card-link">Learn More &nbsp;&rarr;</a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- =========================================================
+     FEATURED PRODUCTS SECTION
+========================================================= -->
+<section class="fprod-section">
+    <div class="fprod-container">
+        
+        <!-- Left Text Content -->
+        <div class="fprod-text-content">
+            <div class="fprod-badge">
+                <i class="fa-solid fa-bolt"></i> FEATURED PRODUCTS
+            </div>
+            <h2 class="fprod-title">Premium Solar Products<br>for Maximum Performance</h2>
+            <p class="fprod-desc">We work with the world's leading brands to bring you reliable, efficient and durable solar products.</p>
+            <a href="#" class="fprod-btn">View All Products &nbsp;&rarr;</a>
+        </div>
+
+        <!-- Right: 4 product cards (always shown together) -->
+        <div class="fprod-slider-main">
+            <div class="fprod-slider-wrapper">
+                
+                <!-- Cards Track -->
+                <div class="fprod-track">
+                    
+                    <!-- Product Card 1 -->
+                    <div class="fprod-card">
+                        <div class="fprod-img"><img src="img/Solar Panels.jpg"></div>
+                        <div class="fprod-card-icon"><i class="fa-solid fa-solar-panel"></i></div>
+                        <div class="fprod-card-body">
+                            <h3 class="fprod-card-title">Solar Panels</h3>
+                            <span class="fprod-tag">High Efficiency</span>
+                            <div class="fprod-card-footer">
+                                <span class="fprod-price">From NZ$299</span>
+                                <a href="#" class="fprod-circle-btn">&rarr;</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product Card 2 -->
+                    <div class="fprod-card">
+                        <div class="fprod-img"><img src="img/Inverters.jpg"></div>
+                        <div class="fprod-card-icon"><i class="fa-solid fa-box"></i></div>
+                        <div class="fprod-card-body">
+                            <h3 class="fprod-card-title">Inverters</h3>
+                            <span class="fprod-tag">Reliable Performance</span>
+                            <div class="fprod-card-footer">
+                                <span class="fprod-price">From NZ$499</span>
+                                <a href="#" class="fprod-circle-btn">&rarr;</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product Card 3 -->
+                    <div class="fprod-card">
+                        <div class="fprod-img"><img src="img/Batteries.jpg"></div>
+                        <div class="fprod-card-icon"><i class="fa-solid fa-car-battery"></i></div>
+                        <div class="fprod-card-body">
+                            <h3 class="fprod-card-title">Batteries</h3>
+                            <span class="fprod-tag">Long Life</span>
+                            <div class="fprod-card-footer">
+                                <span class="fprod-price">From NZ$899</span>
+                                <a href="#" class="fprod-circle-btn">&rarr;</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product Card 4 -->
+                    <div class="fprod-card">
+                        <div class="fprod-img"><img src="img/EV Chargers.jpg"></div>
+                        <div class="fprod-card-icon"><i class="fa-solid fa-plug"></i></div>
+                        <div class="fprod-card-body">
+                            <h3 class="fprod-card-title">EV Chargers</h3>
+                            <span class="fprod-tag">Smart Charging</span>
+                            <div class="fprod-card-footer">
+                                <span class="fprod-price">From NZ$499</span>
+                                <a href="#" class="fprod-circle-btn">&rarr;</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- =========================================================
+     SECTION: TRUST BANNER & WHY CHOOSE US
+========================================================= -->
+<section class="wcs-section">
+    
+    <!-- Top Part: Trust Banner with Background -->
+    <div class="wcs-trust-banner">
+        <!--Image Background -->
+        <div class="wcs-bg"></div>
+        
+        <div class="wcs-banner-container">
+            <!-- Banner Left Content -->
+            <div class="wcs-banner-left">
+                <h2 class="wcs-banner-title">Trusted by Homes,<br>Businesses & Communities</h2>
+                <p class="wcs-banner-desc">With years of experience and thousands of successful installations, we're proud to be a leading solar energy provider in our region.</p>
+                <a href="#" class="wcs-video-btn">
+                    <span class="wcs-play-icon"><i class="fa-solid fa-play"></i></span> 
+                    Watch Video
+                </a>
+            </div>
+
+            <!-- Banner Right Stats -->
+            <div class="wcs-banner-right">
+                <div class="wcs-stats-box">
+                    <div class="wcs-stat-item">
+                        <div class="wcs-stat-icon"><i class="fa-solid fa-award"></i></div>
+                        <h3 class="wcs-stat-number"><span class="wcs-counter" data-target="25">0</span>+</h3>
+                        <p class="wcs-stat-text">Years Experience</p>
+                    </div>
+                    <div class="wcs-stat-item">
+                        <div class="wcs-stat-icon"><i class="fa-solid fa-users"></i></div>
+                        <h3 class="wcs-stat-number"><span class="wcs-counter" data-target="10000">0</span>+</h3>
+                        <p class="wcs-stat-text">Happy Customers</p>
+                    </div>
+                    <div class="wcs-stat-item">
+                        <div class="wcs-stat-icon"><i class="fa-solid fa-solar-panel"></i></div>
+                        <h3 class="wcs-stat-number"><span class="wcs-counter" data-target="500">0</span>+</h3>
+                        <p class="wcs-stat-text">Projects Completed</p>
+                    </div>
+                    <div class="wcs-stat-item">
+                        <div class="wcs-stat-icon"><i class="fa-solid fa-leaf"></i></div>
+                        <h3 class="wcs-stat-number"><span class="wcs-counter" data-target="100">0</span>%</h3>
+                        <p class="wcs-stat-text">Clean Energy Focus</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bottom Part: Why Choose Us -->
+    <div class="wcs-why-container">
+        <!-- Left Text Content -->
+        <div class="wcs-why-left">
+            <div class="wcs-badge">
+                <i class="fa-solid fa-shield-halved"></i> WHY CHOOSE SOLARSHOP?
+            </div>
+            <h2 class="wcs-why-title">Why Choose<br>SolarShop?</h2>
+            <p class="wcs-why-desc">We're more than just a solar provider — we're your long-term energy partner. Here's what sets us apart.</p>
+            <a href="#" class="wcs-btn">About Us &nbsp;&rarr;</a>
+        </div>
+
+        <!-- Right Features Grid -->
+        <div class="wcs-features-grid">
+            <!-- Feature 1 -->
+            <div class="wcs-feature">
+                <div class="wcs-feature-icon"><i class="fa-solid fa-user-check"></i></div>
+                <div class="wcs-feature-text">
+                    <h4>Certified Experts</h4>
+                    <p>Skilled & experienced team</p>
+                </div>
+            </div>
+            <!-- Feature 2 -->
+            <div class="wcs-feature">
+                <div class="wcs-feature-icon"><i class="fa-solid fa-medal"></i></div>
+                <div class="wcs-feature-text">
+                    <h4>Premium Quality</h4>
+                    <p>Top brands & reliable products</p>
+                </div>
+            </div>
+            <!-- Feature 3 -->
+            <div class="wcs-feature">
+                <div class="wcs-feature-icon"><i class="fa-solid fa-handshake-angle"></i></div>
+                <div class="wcs-feature-text">
+                    <h4>End-to-End Service</h4>
+                    <p>From consultation to support</p>
+                </div>
+            </div>
+            <!-- Feature 4 -->
+            <div class="wcs-feature">
+                <div class="wcs-feature-icon"><i class="fa-solid fa-car-battery"></i></div>
+                <div class="wcs-feature-text">
+                    <h4>Battery Storage</h4>
+                    <p>Energy when you need it</p>
+                </div>
+            </div>
+            <!-- Feature 5 -->
+            <div class="wcs-feature">
+                <div class="wcs-feature-icon"><i class="fa-solid fa-seedling"></i></div>
+                <div class="wcs-feature-text">
+                    <h4>Sustainable Future</h4>
+                    <p>Cleaner, greener planet</p>
+                </div>
+            </div>
+            <!-- Feature 6 -->
+            <div class="wcs-feature">
+                <div class="wcs-feature-icon"><i class="fa-solid fa-tag"></i></div>
+                <div class="wcs-feature-text">
+                    <h4>Competitive Pricing</h4>
+                    <p>Maximum value & savings</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     SECTION: OUR PROJECTS
+========================================================= -->
+<section class="proj-section">
+    <div class="proj-container">
+        
+        <!-- Header -->
+        <div class="proj-header">
+            <div class="proj-header-left">
+                <div class="proj-badge">
+                    <i class="fa-solid fa-circle-nodes"></i> OUR PROJECTS
+                </div>
+                <h2 class="proj-title">Real Projects. Real Impact.</h2>
+                <p class="proj-desc">See how we've helped homes & businesses make the switch to clean, renewable energy.</p>
+            </div>
+            <div class="proj-header-right">
+                <a href="#" class="proj-btn-outline">View All Projects &nbsp;&rarr;</a>
+            </div>
+        </div>
+
+        <!-- Slider Area -->
+        <div class="proj-slider-wrapper">
+            <button class="proj-arrow prev-arrow"><i class="fa-solid fa-chevron-left"></i></button>
+            
+            <div class="proj-track">
+                <!-- Project 1 -->
+                <div class="proj-card">
+                    <div class="proj-dummy-img"><img src="img/Residential-Project.jpg"></div>
+                    <div class="proj-card-bottom">
+                        <div class="proj-card-icon"><i class="fa-solid fa-house"></i></div>
+                        <div class="proj-card-text">
+                            <h3>Residential</h3>
+                            <p>Auckland</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="proj-card">
+                    <div class="proj-dummy-img"><img src="img/Commercial-Project.jpg"></div>
+                    <div class="proj-card-bottom">
+                        <div class="proj-card-icon"><i class="fa-regular fa-building"></i></div>
+                        <div class="proj-card-text">
+                            <h3>Commercial</h3>
+                            <p>Hamilton</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="proj-card">
+                    <div class="proj-dummy-img"><img src="img/Farm-Project.jpg"></div>
+                    <div class="proj-card-bottom">
+                        <div class="proj-card-icon"><i class="fa-solid fa-tractor"></i></div>
+                        <div class="proj-card-text">
+                            <h3>Farm</h3>
+                            <p>Wellington</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 4 -->
+                <div class="proj-card">
+                    <div class="proj-dummy-img"><img src="img/Installation-Project.jpg"></div>
+                    <div class="proj-card-bottom">
+                        <div class="proj-card-icon"><i class="fa-solid fa-helmet-safety"></i></div>
+                        <div class="proj-card-text">
+                            <h3>Installation</h3>
+                            <p>Christchurch</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <button class="proj-arrow next-arrow"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+
+    </div>
+</section>
+
+<!-- How It Work Start -->
+
+
+<section class="proc-section" id="how-it-works" data-proc aria-labelledby="proc-heading">
+<div class="proc-inner">
+<div class="proc-stage" data-step="0" aria-hidden="true">
+ <div class="proc-scenes">
+  <div class="proc-scene is-active">
+   <img class="proc-bg" src="img/s1.jpg" width="1200" height="1200" alt="" decoding="async">
+   <span class="proc-scan"></span><div class="proc-chips"><span class="proc-chip" style="--i:0;top:2%;left:0"><i class="fa-solid fa-location-dot"></i>Free site visit</span><span class="proc-chip" style="--i:1;top:36%;right:0"><i class="fa-solid fa-file-invoice-dollar"></i>Power bill review</span><span class="proc-chip" style="--i:2;bottom:2%;left:6%"><i class="fa-solid fa-sun"></i>Roof and shade check</span></div>
+  </div>
+  <div class="proc-scene">
+   <img class="proc-bg" src="img/s2.jpg" width="1200" height="1200" alt="" decoding="async">
+   <img class="proc-cut proc-cut--tablet" src="img/tab.png" width="900" height="630" alt="" decoding="async"><div class="proc-chips"><span class="proc-chip" style="--i:0;top:2%;right:0"><i class="fa-solid fa-tag"></i>Fixed-price quote</span><span class="proc-chip" style="--i:1;top:36%;left:0"><i class="fa-solid fa-cube"></i>3D panel layout</span><span class="proc-chip" style="--i:2;bottom:2%;left:4%"><i class="fa-solid fa-battery-three-quarters"></i>Battery-ready options</span></div>
+  </div>
+  <div class="proc-scene">
+   <img class="proc-bg" src="img/s3.jpg" width="1200" height="1200" alt="" decoding="async">
+   <div class="proc-chips"><span class="proc-chip" style="--i:0;top:0;left:2%"><i class="fa-solid fa-clock"></i>1-2 days on site</span><span class="proc-chip" style="--i:1;top:58%;right:0"><i class="fa-solid fa-helmet-safety"></i>Certified installers</span><span class="proc-chip" style="--i:2;bottom:2%;left:4%"><i class="fa-solid fa-circle-check"></i>Tested and signed off</span></div>
+  </div>
+  <div class="proc-scene">
+   <img class="proc-bg" src="img/s4.jpg" width="1200" height="1200" alt="" decoding="async">
+   <img class="proc-cut proc-cut--phone" src="img/mob.png" width="440" height="900" alt="" decoding="async">
+   <div class="proc-live"><span class="pv-dot"></span>Generating now <strong data-proc-kw>4.2 kW</strong></div>
+   <div class="proc-chips"><span class="proc-chip" style="--i:0;top:0;left:0"><i class="fa-solid fa-mobile-screen"></i>Live app monitoring</span><span class="proc-chip" style="--i:1;top:40%;left:0"><i class="fa-solid fa-screwdriver-wrench"></i>Yearly health check</span><span class="proc-chip" style="--i:2;bottom:2%;left:6%"><i class="fa-solid fa-headset"></i>Local NZ support</span></div>
+  </div>
+ </div>
+ <div class="proc-stage-cap"><span class="proc-cap-label"><span data-proc-count>Step 1 of 4</span> <strong data-proc-cap>Consultation</strong></span><span class="proc-pips"><i class="proc-pip is-on"></i><i class="proc-pip"></i><i class="proc-pip"></i><i class="proc-pip"></i></span></div>
+</div>
+
+<div class="proc-content">
+ <div class="proc-badge">OUR PROCESS</div>
+ <h2 class="proc-title" id="proc-heading">How It Works</h2>
+ <p class="proc-desc">Getting solar is simple. We make the process easy, transparent and stress-free from start to finish.</p>
+ <ol class="proc-steps" data-proc-steps>
+  <li class="proc-item is-active" data-step="0"><button type="button" class="proc-item-head" id="proc-head-0" aria-expanded="true" aria-controls="proc-body-0"><span class="proc-num">01</span><span class="proc-item-title">Consultation</span><span class="proc-item-time">Day 1</span></button>
+   <div class="proc-item-body" id="proc-body-0" role="region" aria-labelledby="proc-head-0"><div><p>We look at your power bills, your roof and how you use energy, then recommend the right size for you.</p><ul class="proc-checks"><li><i class="fa-solid fa-check"></i>Free, no-obligation site assessment</li><li><i class="fa-solid fa-check"></i>Roof, shade and switchboard check</li><li><i class="fa-solid fa-check"></i>Usage review from your power bill</li></ul></div></div><span class="proc-rail" aria-hidden="true"></span><span class="proc-timer" aria-hidden="true"></span></li>
+  <li class="proc-item" data-step="1"><button type="button" class="proc-item-head" id="proc-head-1" aria-expanded="false" aria-controls="proc-body-1"><span class="proc-num">02</span><span class="proc-item-title">System Design</span><span class="proc-item-time">Within 3 days</span></button>
+   <div class="proc-item-body" id="proc-body-1" role="region" aria-labelledby="proc-head-1"><div><p>You get a custom design and a clear, fixed-price quote with your expected savings and payback.</p><ul class="proc-checks"><li><i class="fa-solid fa-check"></i>Panel layout and equipment choices</li><li><i class="fa-solid fa-check"></i>Savings and payback estimate</li><li><i class="fa-solid fa-check"></i>We handle your lines company application</li></ul></div></div><span class="proc-rail" aria-hidden="true"></span><span class="proc-timer" aria-hidden="true"></span></li>
+  <li class="proc-item" data-step="2"><button type="button" class="proc-item-head" id="proc-head-2" aria-expanded="false" aria-controls="proc-body-2"><span class="proc-num">03</span><span class="proc-item-title">Installation</span><span class="proc-item-time">1-2 days on site</span></button>
+   <div class="proc-item-body" id="proc-body-2" role="region" aria-labelledby="proc-head-2"><div><p>Our certified installers fit the system, connect it and test everything before they hand it over.</p><ul class="proc-checks"><li><i class="fa-solid fa-check"></i>Certified installers and a tidy site</li><li><i class="fa-solid fa-check"></i>Full safety and performance testing</li><li><i class="fa-solid fa-check"></i>A walkthrough of how it all works</li></ul></div></div><span class="proc-rail" aria-hidden="true"></span><span class="proc-timer" aria-hidden="true"></span></li>
+  <li class="proc-item" data-step="3"><button type="button" class="proc-item-head" id="proc-head-3" aria-expanded="false" aria-controls="proc-body-3"><span class="proc-num">04</span><span class="proc-item-title">Ongoing Support</span><span class="proc-item-time">Ongoing</span></button>
+   <div class="proc-item-body" id="proc-body-3" role="region" aria-labelledby="proc-head-3"><div><p>Track your system in the app. We watch its performance and we are one call away if you need us.</p><ul class="proc-checks"><li><i class="fa-solid fa-check"></i>Live monitoring in the app</li><li><i class="fa-solid fa-check"></i>Yearly performance check</li><li><i class="fa-solid fa-check"></i>Workmanship and product warranties</li></ul></div></div><span class="proc-rail" aria-hidden="true"></span><span class="proc-timer" aria-hidden="true"></span></li>
+ </ol>
+ <div class="proc-cta-row"><a href="#calculator" class="proc-btn">Get Started &nbsp;&rarr;</a><span class="proc-cta-note">Free site assessment, anywhere in New Zealand</span></div>
+</div>
+</div>
+</section>
+
+
+<!-- How It Work End -->
+<!-- =========================================================
+     SECTION: CALCULATOR, TESTIMONIALS & CONTACT
+========================================================= -->
+<section class="scc-section" id="calculator">
+    <div class="scc-container">
+        
+        <!-- ================= TOP ROW ================= -->
+        <div class="scc-top-row">
+            
+            <!-- Left: Savings Calculator -->
+            <div class="scc-calc-wrapper">
+                <div class="scc-badge">
+                    <i class="fa-solid fa-leaf"></i> SOLAR SAVINGS CALCULATOR
+                </div>
+                <h2 class="scc-title">Calculate Your Savings</h2>
+                <p class="scc-desc">See how much you could save with a solar system customized for your home or business.</p>
+
+                <div class="scc-calc-container">
+                    <!-- Form Area -->
+                    <div class="scc-calc-form-area" data-calc="main">
+                        <div class="scc-toggle-box" role="group" aria-label="Property type">
+                            <button type="button" class="scc-toggle-btn active" data-mode="residential" aria-pressed="true">Residential</button>
+                            <button type="button" class="scc-toggle-btn" data-mode="commercial" aria-pressed="false">Commercial</button>
+                        </div>
+
+                        <div class="scc-form-grid">
+                            <div class="scc-input-group">
+                                <label for="calc-bill">Monthly Electricity Bill</label>
+                                <div class="scc-money"><span>NZ$</span><input id="calc-bill" data-calc-bill type="number" inputmode="decimal" min="0" step="10" placeholder="250"></div>
+                                <small class="scc-field-error" data-err="bill"></small>
+                            </div>
+                            <div class="scc-input-group">
+                                <label for="calc-region">Location</label>
+                                <select id="calc-region" data-calc-region required><option value="" selected disabled>Select region</option><option value="Northland" data-yield="1400">Northland</option><option value="Auckland" data-yield="1350">Auckland</option><option value="Waikato" data-yield="1330">Waikato</option><option value="Bay of Plenty" data-yield="1450">Bay of Plenty</option><option value="Gisborne" data-yield="1450">Gisborne</option><option value="Hawke's Bay" data-yield="1450">Hawke's Bay</option><option value="Taranaki" data-yield="1380">Taranaki</option><option value="Manawatū-Whanganui" data-yield="1300">Manawatū-Whanganui</option><option value="Wellington" data-yield="1300">Wellington</option><option value="Tasman" data-yield="1480">Tasman</option><option value="Nelson" data-yield="1500">Nelson</option><option value="Marlborough" data-yield="1520">Marlborough</option><option value="West Coast" data-yield="1150">West Coast</option><option value="Canterbury" data-yield="1400">Canterbury</option><option value="Otago" data-yield="1330">Otago</option><option value="Southland" data-yield="1200">Southland</option></select>
+                                <small class="scc-field-error" data-err="region"></small>
+                            </div>
+                            <div class="scc-input-group full-width">
+                                <label for="calc-size">System Size</label>
+                                <select id="calc-size" data-calc-size><option value="auto" selected>Recommend the best size for me</option><option value="3">3 kW</option><option value="4">4 kW</option><option value="5">5 kW</option><option value="6.6">6.6 kW</option><option value="8">8 kW</option><option value="10">10 kW</option><option value="13">13 kW</option></select>
+                            </div>
+                        </div>
+
+                        <button type="button" class="scc-yellow-btn" data-calc-btn>Calculate Savings &nbsp;&rarr;</button>
+                    </div>
+
+                    <!-- Result Area (Floating Card over Image) -->
+                    <div class="scc-calc-result-area">
+                        <div class="scc-dummy-img"><img style="width: 300px; height: 450px; border-radius: 16px; object-fit: cover;" src="img/results-bg.jpg"></div>
+                        <div class="scc-result-card">
+                            <div class="scc-result-top">
+                                <div class="scc-sun-icon"><i class="fa-solid fa-sun"></i></div>
+                                <div>
+                                    <p class="scc-result-label">Estimated Annual Savings</p>
+                                    <h3 class="scc-result-amount" data-out="amount">NZ$ &mdash;</h3>
+                                    <p class="scc-result-sub" data-out="monthly">&nbsp;</p>
+                                </div>
+                            </div>
+                            <div class="scc-result-bottom">
+                                <div class="scc-stat">
+                                    <i class="fa-solid fa-solar-panel"></i>
+                                    <strong data-out="size">&mdash;</strong>
+                                    <span>System Size</span>
+                                </div>
+                                <div class="scc-stat">
+                                    <i class="fa-solid fa-clock-rotate-left"></i>
+                                    <strong data-out="payback">&mdash;</strong>
+                                    <span>Payback</span>
+                                </div>
+                                <div class="scc-stat">
+                                    <i class="fa-solid fa-cloud"></i>
+                                    <strong data-out="co2">&mdash;</strong>
+                                    <span>CO2 Offset</span>
+                                </div>
+                            </div>
+                            <p class="scc-result-note" data-out="note" aria-live="polite">Enter your bill and choose your region to see your estimate.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right: Testimonials -->
+            <div class="scc-testi-wrapper">
+                <div class="scc-badge">
+                    <i class="fa-regular fa-comment-dots"></i> CLIENT TESTIMONIALS
+                </div>
+                <h2 class="scc-title">Real People. Real Savings.</h2>
+                <p class="scc-desc">See what our customers have to say about their solar experience.</p>
+
+                <div class="scc-testi-slider-area">
+                    <div class="scc-dummy-img scc-testi-bg"><img style="width: 530px; height: 350px; border-radius: 16px; object-fit: cover;" src="img/Save Money.png"></div>
+                    
+                    <button class="scc-slider-arrow prev"><i class="fa-solid fa-chevron-left"></i></button>
+                    
+                    <div class="scc-testi-card">
+                        <div class="scc-testi-profile">
+                            <div class="scc-dummy-avatar"><img src="img/Sarah Mitchell.jpg"></div>
+                        </div>
+                        <div class="scc-testi-content">
+                            <div class="scc-stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <p class="scc-quote">"SolarShop made the entire process simple and stress-free. Our energy bills are down by 70%!"</p>
+                            <h4 class="scc-client-name">Sarah Mitchell</h4>
+                            <span class="scc-client-role">Homeowner, Auckland</span>
+                        </div>
+                    </div>
+
+                    <button class="scc-slider-arrow next"><i class="fa-solid fa-chevron-right"></i></button>
+                </div>
+                
+                <div class="scc-dots">
+                    <span class="scc-dot active"></span>
+                    <span class="scc-dot"></span>
+                    <span class="scc-dot"></span>
+                    <span class="scc-dot"></span>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- ================= BOTTOM ROW ================= -->
+        <div class="scc-bottom-row">
+
+            <!-- Col 1: Contact Form -->
+            <div class="scc-contact-box">
+                <div class="scc-contact-header">GET IN TOUCH</div>
+                <h3 class="scc-contact-title">Ready to Go Solar?</h3>
+                <p class="scc-contact-desc">Fill out the form and one of our solar experts will get back to you within 24 hours.</p>
+                
+                <form class="scc-form" id="scc-contact-form" novalidate>
+                    <div class="scc-form-row">
+                        <div class="scc-input-group">
+                            <label for="cf-name">Full Name *</label>
+                            <input id="cf-name" name="name" type="text" placeholder="Your Name" autocomplete="name" required>
+                            <small class="scc-field-error"></small>
+                        </div>
+                        <div class="scc-input-group">
+                            <label for="cf-email">Email Address *</label>
+                            <input id="cf-email" name="email" type="email" placeholder="Email Address" autocomplete="email" required>
+                            <small class="scc-field-error"></small>
+                        </div>
+                    </div>
+                    <div class="scc-form-row">
+                        <div class="scc-input-group">
+                            <label for="cf-phone">Phone Number *</label>
+                            <input id="cf-phone" name="phone" type="tel" placeholder="021 234 5678" autocomplete="tel" required>
+                            <small class="scc-field-error"></small>
+                        </div>
+                        <div class="scc-input-group">
+                            <label for="cf-service">Service Interest *</label>
+                            <select id="cf-service" name="service" required><option value="" selected disabled>Select Service</option><option value="Residential Solar Installation">Residential Solar Installation</option><option value="Commercial Solar">Commercial Solar</option><option value="Battery Storage">Battery Storage</option><option value="EV Charger Installation">EV Charger Installation</option><option value="System Upgrade or Maintenance">System Upgrade or Maintenance</option><option value="Free Site Assessment">Free Site Assessment</option><option value="Something else">Something else</option></select>
+                            <small class="scc-field-error"></small>
+                        </div>
+                    </div>
+                    <div class="scc-input-group">
+                        <label for="cf-message">Message (Optional)</label>
+                        <textarea id="cf-message" name="message" placeholder="Tell us about your project..."></textarea>
+                    </div>
+                    <button type="submit" class="scc-yellow-btn">Send Message &nbsp;&rarr;</button>
+                    <p class="scc-form-status" role="status" aria-live="polite"></p>
+                </form>
+            </div>
+
+            <!-- Col 2: Image & Features -->
+            <div class="scc-features-box">
+                <div class="scc-dummy-img features-img"><img style="width: 485px; height: 230px; border-radius: 16px; object-fit: cover;" src="img/House.png"></div>
+                <div class="scc-feature-list">
+                    <div class="scc-feature-item">
+                        <div class="scc-f-icon"><i class="fa-solid fa-clipboard-check"></i></div>
+                        <div>
+                            <h4>Free Consultation</h4>
+                            <p>No obligation, no pressure</p>
+                        </div>
+                    </div>
+                    <div class="scc-feature-item">
+                        <div class="scc-f-icon"><i class="fa-solid fa-solar-panel"></i></div>
+                        <div>
+                            <h4>Custom Solar Solutions</h4>
+                            <p>Tailored to your needs</p>
+                        </div>
+                    </div>
+                    <div class="scc-feature-item">
+                        <div class="scc-f-icon"><i class="fa-solid fa-headset"></i></div>
+                        <div>
+                            <h4>Local Support</h4>
+                            <p>Here when you need us</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- =========================================================
+     FAQ SECTION
+========================================================= -->
+<section class="faq-section" id="faq" aria-labelledby="faq-heading">
+    <div class="faq-container">
+
+        <!-- Left: intro, search, filters, help card -->
+        <div class="faq-intro">
+            <div class="faq-badge"><i class="fa-solid fa-circle-question"></i> FAQ</div>
+            <h2 class="faq-title" id="faq-heading">Frequently Asked Questions</h2>
+            <p class="faq-lead">Straight answers about costs, installation and what to expect when you go solar in New Zealand.</p>
+
+            <div class="faq-search">
+                <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+                <input type="search" id="faq-search" placeholder="Search questions" aria-label="Search questions" autocomplete="off">
+            </div>
+
+            <div class="faq-pills" role="group" aria-label="Filter questions by topic"><button type="button" class="faq-pill is-on" data-cat="all" aria-pressed="true">All</button><button type="button" class="faq-pill" data-cat="costs" aria-pressed="false">Costs &amp; savings</button><button type="button" class="faq-pill" data-cat="install" aria-pressed="false">Installation</button><button type="button" class="faq-pill" data-cat="system" aria-pressed="false">Your system</button><button type="button" class="faq-pill" data-cat="support" aria-pressed="false">Support &amp; warranty</button></div>
+
+            <div class="faq-help">
+                <h3>Still have questions?</h3>
+                <p>Our solar experts reply within 24 hours, and the site assessment is free.</p>
+                <div class="faq-help-actions">
+                    <a href="#scc-contact-form" class="faq-help-btn">Send a message &nbsp;&rarr;</a>
+                    <a href="#calculator" class="faq-help-link">Calculate savings</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right: accordion -->
+        <div class="faq-main">
+            <p class="faq-count" aria-live="polite" data-faq-count>11 questions</p>
+            <div class="faq-list">
+                <div class="faq-item is-open" data-cat="costs">
+                    <h3 class="faq-h">
+                        <button type="button" class="faq-q" id="faq-q-0" aria-expanded="true" aria-controls="faq-a-0">
+                            <span class="faq-q-text">How much does a solar system cost in New Zealand?</span>
+                            <span class="faq-icon" aria-hidden="true"></span>
+                        </button>
+                    </h3>
+                    <div class="faq-a" id="faq-a-0" role="region" aria-labelledby="faq-q-0">
+                        <div><p>Most home systems cost roughly NZ$8,000 to NZ$20,000 installed, depending on the size, your roof type and whether you add a battery. Commercial systems are quoted project by project. The savings calculator above gives you a quick estimate, and your fixed-price quote after a free site assessment gives the exact figure.</p></div>
+                    </div>
+                </div>
+                <div class="faq-item" data-cat="costs">
+                    <h3 class="faq-h">
+                        <button type="button" class="faq-q" id="faq-q-1" aria-expanded="false" aria-controls="faq-a-1">
+                            <span class="faq-q-text">How long until solar pays for itself?</span>
+                            <span class="faq-icon" aria-hidden="true"></span>
+                        </button>
+                    </h3>
+                    <div class="faq-a" id="faq-a-1" role="region" aria-labelledby="faq-q-1">
+                        <div><p>Most homes reach payback in about 6 to 9 years. It depends on how much power you use during the day, your region and your electricity price. Businesses that use most of their power in daytime hours often pay back faster.</p></div>
+                    </div>
+                </div>
+                <div class="faq-item" data-cat="costs">
+                    <h3 class="faq-h">
+                        <button type="button" class="faq-q" id="faq-q-2" aria-expanded="false" aria-controls="faq-a-2">
+                            <span class="faq-q-text">Is there a government subsidy for solar in New Zealand?</span>
+                            <span class="faq-icon" aria-hidden="true"></span>
+                        </button>
+                    </h3>
+                    <div class="faq-a" id="faq-a-2" role="region" aria-labelledby="faq-q-2">
+                        <div><p>There is currently no national solar rebate. Your savings come from the power you generate and use yourself, plus whatever your retailer pays for the power you export. Offers can change, so we will tell you about any that apply when we prepare your quote.</p></div>
+                    </div>
+                </div>
+                <div class="faq-item" data-cat="costs">
+                    <h3 class="faq-h">
+                        <button type="button" class="faq-q" id="faq-q-3" aria-expanded="false" aria-controls="faq-a-3">
+                            <span class="faq-q-text">Will I be paid for power I send back to the grid?</span>
+                            <span class="faq-icon" aria-hidden="true"></span>
+                        </button>
+                    </h3>
+                    <div class="faq-a" id="faq-a-3" role="region" aria-labelledby="faq-q-3">
+                        <div><p>Most retailers offer a buy-back rate for exported power. Rates vary between retailers and are usually lower than the price you pay to buy electricity, so it pays to use as much of your solar power at home as you can. We can compare options for you.</p></div>
+                    </div>
+                </div>
+                <div class="faq-item" data-cat="install">
+                    <h3 class="faq-h">
+                        <button type="button" class="faq-q" id="faq-q-4" aria-expanded="false" aria-controls="faq-a-4">
+                            <span class="faq-q-text">How long does installation take?</span>
+                            <span class="faq-icon" aria-hidden="true"></span>
+                        </button>
+                    </h3>
+                    <div class="faq-a" id="faq-a-4" role="region" aria-labelledby="faq-q-4">
+                        <div><p>Most home systems are installed in one to two days. The whole journey, from your site assessment to switching on, usually takes a few weeks. The exact time depends on your design, equipment availability and approval from your lines company.</p></div>
+                    </div>
+                </div>
+                <div class="faq-item" data-cat="install">
+                    <h3 class="faq-h">
+                        <button type="button" class="faq-q" id="faq-q-5" aria-expanded="false" aria-controls="faq-a-5">
+                            <span class="faq-q-text">Do I need council consent or lines company approval?</span>
+                            <span class="faq-icon" aria-hidden="true"></span>
+                        </button>
+                    </h3>
+                    <div class="faq-a" id="faq-a-5" role="region" aria-labelledby="faq-q-5">
+                        <div><p>Your local lines company must approve any system that connects to the grid, and we handle that application for you. Many roof-mounted systems do not need a building consent, but it depends on your roof and your council, so we check this during the design stage.</p></div>
+                    </div>
+                </div>
+                <div class="faq-item" data-cat="install">
+                    <h3 class="faq-h">
+                        <button type="button" class="faq-q" id="faq-q-6" aria-expanded="false" aria-controls="faq-a-6">
+                            <span class="faq-q-text">Will solar work on cloudy days and in winter?</span>
+                            <span class="faq-icon" aria-hidden="true"></span>
+                        </button>
+                    </h3>
+                    <div class="faq-a" id="faq-a-6" role="region" aria-labelledby="faq-q-6">
+                        <div><p>Yes. Panels still generate on overcast days, just at a lower output, and New Zealand gets plenty of sun through most of the year. We design your system for your region and roof, so your savings estimate already allows for the seasonal ups and downs.</p></div>
+                    </div>
+                </div>
+                <div class="faq-item" data-cat="system">
+                    <h3 class="faq-h">
+                        <button type="button" class="faq-q" id="faq-q-7" aria-expanded="false" aria-controls="faq-a-7">
+                            <span class="faq-q-text">Do I need a battery?</span>
+                            <span class="faq-icon" aria-hidden="true"></span>
+                        </button>
+                    </h3>
+                    <div class="faq-a" id="faq-a-7" role="region" aria-labelledby="faq-q-7">
+                        <div><p>No. A battery stores extra solar power for the evening and can keep key circuits running in an outage if your system supports it. Many homes start with panels only. We can design your system to be battery-ready so you can add one later.</p></div>
+                    </div>
+                </div>
+                <div class="faq-item" data-cat="system">
+                    <h3 class="faq-h">
+                        <button type="button" class="faq-q" id="faq-q-8" aria-expanded="false" aria-controls="faq-a-8">
+                            <span class="faq-q-text">Can I charge an electric vehicle with solar?</span>
+                            <span class="faq-icon" aria-hidden="true"></span>
+                        </button>
+                    </h3>
+                    <div class="faq-a" id="faq-a-8" role="region" aria-labelledby="faq-q-8">
+                        <div><p>Yes. A smart EV charger can use your solar power while the sun is out, so you drive on energy you made yourself. We can install the charger with your system or add it later.</p></div>
+                    </div>
+                </div>
+                <div class="faq-item" data-cat="support">
+                    <h3 class="faq-h">
+                        <button type="button" class="faq-q" id="faq-q-9" aria-expanded="false" aria-controls="faq-a-9">
+                            <span class="faq-q-text">How long do panels last, and what warranties do I get?</span>
+                            <span class="faq-icon" aria-hidden="true"></span>
+                        </button>
+                    </h3>
+                    <div class="faq-a" id="faq-a-9" role="region" aria-labelledby="faq-q-9">
+                        <div><p>Quality panels usually come with a 25-year performance warranty, and inverters often have 10 years of cover or more. You also get a workmanship warranty from us. The exact terms are set out in your quote.</p></div>
+                    </div>
+                </div>
+                <div class="faq-item" data-cat="support">
+                    <h3 class="faq-h">
+                        <button type="button" class="faq-q" id="faq-q-10" aria-expanded="false" aria-controls="faq-a-10">
+                            <span class="faq-q-text">Do solar panels need maintenance?</span>
+                            <span class="faq-icon" aria-hidden="true"></span>
+                        </button>
+                    </h3>
+                    <div class="faq-a" id="faq-a-10" role="region" aria-labelledby="faq-q-10">
+                        <div><p>Very little. Rain does most of the cleaning, and we recommend a yearly check of performance and connections. You can watch your output in the app, and we will flag anything unusual.</p></div>
+                    </div>
+                </div>
+            </div>
+            <p class="faq-empty" data-faq-empty hidden>No questions match your search. Try another word, or <a href="#scc-contact-form">ask us directly</a>.</p>
+        </div>
+
+    </div>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does a solar system cost in New Zealand?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most home systems cost roughly NZ$8,000 to NZ$20,000 installed, depending on the size, your roof type and whether you add a battery. Commercial systems are quoted project by project. The savings calculator above gives you a quick estimate, and your fixed-price quote after a free site assessment gives the exact figure."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long until solar pays for itself?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most homes reach payback in about 6 to 9 years. It depends on how much power you use during the day, your region and your electricity price. Businesses that use most of their power in daytime hours often pay back faster."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is there a government subsidy for solar in New Zealand?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "There is currently no national solar rebate. Your savings come from the power you generate and use yourself, plus whatever your retailer pays for the power you export. Offers can change, so we will tell you about any that apply when we prepare your quote."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Will I be paid for power I send back to the grid?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most retailers offer a buy-back rate for exported power. Rates vary between retailers and are usually lower than the price you pay to buy electricity, so it pays to use as much of your solar power at home as you can. We can compare options for you."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does installation take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most home systems are installed in one to two days. The whole journey, from your site assessment to switching on, usually takes a few weeks. The exact time depends on your design, equipment availability and approval from your lines company."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need council consent or lines company approval?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Your local lines company must approve any system that connects to the grid, and we handle that application for you. Many roof-mounted systems do not need a building consent, but it depends on your roof and your council, so we check this during the design stage."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Will solar work on cloudy days and in winter?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Panels still generate on overcast days, just at a lower output, and New Zealand gets plenty of sun through most of the year. We design your system for your region and roof, so your savings estimate already allows for the seasonal ups and downs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need a battery?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. A battery stores extra solar power for the evening and can keep key circuits running in an outage if your system supports it. Many homes start with panels only. We can design your system to be battery-ready so you can add one later."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I charge an electric vehicle with solar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. A smart EV charger can use your solar power while the sun is out, so you drive on energy you made yourself. We can install the charger with your system or add it later."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long do panels last, and what warranties do I get?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Quality panels usually come with a 25-year performance warranty, and inverters often have 10 years of cover or more. You also get a workmanship warranty from us. The exact terms are set out in your quote."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do solar panels need maintenance?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Very little. Rain does most of the cleaning, and we recommend a yearly check of performance and connections. You can watch your output in the app, and we will flag anything unusual."
+      }
+    }
+  ]
+}
+    </script>
+</section>
+<!-- =========================================================
+     FLOATING CONTACT WIDGET (FOLDER STYLE)
+========================================================= -->
+<div class="fcw-container">
+    <div class="fcw-menu" id="fcw-menu">
+        <a href="#" class="fcw-item wa" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="#" class="fcw-item call" title="Call Us"><i class="fa-solid fa-phone"></i></a>
+        <a href="#" class="fcw-item mail" title="Email Us"><i class="fa-regular fa-envelope"></i></a>
+    </div>
+    <button class="fcw-toggle" id="fcw-toggle" title="Contact Us">
+        <i class="fa-regular fa-folder-closed fcw-icon-folder"></i>
+        <i class="fa-solid fa-xmark fcw-icon-close"></i>
+    </button>
+</div>
+
+<!-- =========================================================
+     MODULE: FOOTER
+========================================================= -->
+<footer class="ssf-footer">
+    <div class="ssf-container">
+        
+        <!-- Top Row: Columns -->
+        <div class="ssf-top-row">
+            
+            <!-- Column 1: Logo & Socials -->
+            <div class="ssf-col-1">
+                <div class="ssf-logo-dummy">150 x 40</div>
+                <p class="ssf-desc">Clean Energy. A Brighter Future.</p>
+                <div class="ssf-socials">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+            </div>
+
+            <!-- Column 2: Quick Links -->
+            <div class="ssf-col-2">
+                <h4 class="ssf-title">Quick Links</h4>
+                <ul class="ssf-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Solar Solutions</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Column 3: Products -->
+            <div class="ssf-col-3">
+                <h4 class="ssf-title">Products</h4>
+                <ul class="ssf-links">
+                    <li><a href="#">Solar Panels</a></li>
+                    <li><a href="#">Inverters</a></li>
+                    <li><a href="#">Batteries</a></li>
+                    <li><a href="#">EV Chargers</a></li>
+                    <li><a href="#">Accessories</a></li>
+                </ul>
+            </div>
+
+            <!-- Column 4: Contact Us -->
+            <div class="ssf-col-4">
+                <h4 class="ssf-title">Contact Us</h4>
+                <ul class="ssf-contact-list">
+                    <li><i class="fa-solid fa-phone"></i> +64 9 555 0123</li>
+                    <li><i class="fa-regular fa-envelope"></i> hello@solarshop.com</li>
+                    <li><i class="fa-solid fa-location-dot"></i> <span>1234 Green Energy Drive<br>Auckland 1010</span></li>
+                    <li><i class="fa-regular fa-clock"></i> Mon - Fri, 8AM - 4PM</li>
+                </ul>
+            </div>
+
+            <!-- Vertical Divider -->
+            <div class="ssf-divider"></div>
+
+            <!-- Column 5: Subscribe -->
+            <div class="ssf-col-5">
+                <h4 class="ssf-title">Subscribe for Updates</h4>
+                <p class="ssf-sub-desc">Get the latest news, offers and solar tips.</p>
+                <form class="ssf-subscribe-form">
+                    <input type="email" placeholder="Your email address">
+                    <button type="button"><i class="fa-solid fa-arrow-right"></i></button>
+                </form>
+            </div>
+            
+        </div>
+
+        <!-- Bottom Row: Copyright & Scroll Top -->
+        <div class="ssf-bottom-row">
+            <p class="ssf-copy">&copy; 2026 SolarShop. All rights reserved.</p>
+            <div class="ssf-bottom-links">
+                <a href="#">Privacy Policy</a>
+                <span class="ssf-sep">|</span>
+                <a href="#">Terms & Conditions</a>
+            </div>
+            <button class="ssf-scroll-top" id="ssf-scroll-top">
+                <i class="fa-solid fa-arrow-up"></i>
+            </button>
+        </div>
+
+    </div>
+</footer>
+<script src="js/script.js"></script>
+</div>
+</body>
+</html>
